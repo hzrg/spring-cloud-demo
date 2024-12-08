@@ -10,8 +10,8 @@
   <name>spring-cloud-demo</name>
   <url>http://maven.apache.org</url>
   <modules>
-    <module>netflix</module>
-    <module>alibaba</module>
+    <module>spring-cloud-alibaba-demo</module>
+    <module>spring-cloud-netflix-demo</module>
   </modules>
 
   <properties>

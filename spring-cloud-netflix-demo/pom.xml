@@ -7,10 +7,10 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>netflix</artifactId>
+    <artifactId>spring-cloud-netflix-demo</artifactId>
     <packaging>jar</packaging>
 
-    <name>netflix</name>
+    <name>spring-cloud-netflix-demo</name>
     <url>http://maven.apache.org</url>
 
     <properties>

@@ -1,0 +1,15 @@
+# 服务名称
+spring:
+  application:
+    name: user
+    
+# 服务端口
+server:
+  port: 8781
+  
+# 使用ribbon不使用eureka
+my-client:
+  ribbon:
+    listOfServers: localhost:8881,localhost:8882,localhost:8883
+
+  
