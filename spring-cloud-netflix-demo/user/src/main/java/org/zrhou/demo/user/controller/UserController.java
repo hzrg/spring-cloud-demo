@@ -40,7 +40,7 @@ public class UserController {
 
     @GetMapping("ribbonQueryUserOrder")
     public String useRibbonQueryUserOrder(String userId) {
-        ServiceInstance instance = loadBalancer.choose("my-client");
+        ServiceInstance instance = loadBalancer.choose("my-ribbon-client");
         URI myClientUri = URI.create(String.format("http://%s:%d/order/queryUserOrder?orderId=%s", instance.getHost(),
                 instance.getPort(), userId));
 
